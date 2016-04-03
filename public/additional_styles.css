@@ -1,6 +1,7 @@
 .main-content {
   width: 100%;
 }
+
 td {
   border: thin red solid;
   padding-left: 10px;
@@ -21,12 +22,6 @@ body {
   background-color: rgb(246,52,64);
 }
 
-.navigationbutton {
-  color: white;
-  background-color: rgb(246,52,64);
-  font-size: 1.33333333em;
-  padding-bottom: 2px;
-}
 
 
 h3 {
