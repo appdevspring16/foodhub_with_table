@@ -1,0 +1,56 @@
+
+  .main-content {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+
+  .brandmark {
+    font-family: 'Passion One', cursive;
+    text-align: left;
+    color: white;
+    background-color: red;
+  }
+
+  .header {
+    text-align: left;
+    color: white;
+    background-color: red;
+  }
+
+  .top-cover {
+    background: url("pasta.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    vertical-align: middle
+  }
+
+  .bottom-cover {
+    background: url("phonetable2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    vertical-align: middle
+  }
+
+  .footer {
+    text-align: left;
+    color: white;
+    background-color: blue;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: 700;
+  }
+
+  td {
+    border: thin red solid;
+    border-spacing: 10px;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
