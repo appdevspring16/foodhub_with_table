@@ -4,7 +4,7 @@ In this project, we'll practice using tables for layout and learn a few new CSS 
 
 We'll also learn how to use GitHub to submit our projects.
 
-[Here is the video tutorial](https://canvas.instructure.com/courses/1018910/pages/foodhub-with-table-and-github-walkthrough) for this project.
+[Here is the video tutorial](https://canvas.instructure.com/courses/1018910/pages/foodhub-with-table-walkthrough-video) for this project.
 
 ## Setup
 
