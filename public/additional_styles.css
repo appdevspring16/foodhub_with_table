@@ -3,19 +3,26 @@
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
   }
 
   .brandmark {
     font-family: 'Passion One', cursive;
+    font-size: 40px;
     text-align: left;
     color: white;
     background-color: red;
+    vertical-align: middle;
   }
 
   .header {
     text-align: left;
     color: white;
     background-color: red;
+    vertical-align: middle;
   }
 
   .top-cover {
@@ -34,6 +41,10 @@
     vertical-align: middle
   }
 
+  .description {
+    text-align: left;
+  }
+
   .footer {
     text-align: left;
     color: white;
@@ -49,6 +60,8 @@
     border-spacing: 10px;
     vertical-align: top;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .img-circle {
