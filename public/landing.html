@@ -8,104 +8,11 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 
-  <style media="screen">
+  <!-- Connect to Font Awesome icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    td{
-      border:thin red solid;
-      vertical-align: top;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    body {
-      font-family: "Montserrat";
-      font-size: 16px;
-    }
-
-    h1, h2, h3, h4 {
-      font-weight: 700;
-    }
-
-    .h4-footer  {
-      color: white;
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    .tagline {
-      font-size: 22px;
-    }
-
-    .li-footer {
-      color: white;
-      margin-bottom: 10px;
-    }
-
-    .main-content {
-      width:100%;
-    }
-
-    .footer {
-      background-color: rgb(50, 50, 170);
-    }
-
-    .centered {
-      text-align: center;
-    }
-
-    .grey-background {
-      background-color: rgb(238, 238, 238);
-    }
-
-    .who-delivers {
-      background: url("images/main-hero.jpg") no-repeat center center;
-      background-size: cover;
-      color: white;
-      height: 400px;
-      vertical-align: middle;
-    }
-
-    .download-apps {
-      background: url("images/download-hero.jpg") no-repeat center center;
-      background-size: cover;
-      color: white;
-      height: 400px;
-      vertical-align: middle;
-    }
-
-    .circle-image-big {
-      border-radius: 50%;
-      width: 200px;
-      margin-bottom: 20px;
-    }
-
-    .circle-image-small {
-      border-radius: 50%;
-      width: 50px;
-    }
-
-    .store-image {
-      width: 200px;
-    }
-
-    .navbar {
-      background-color: rgb(246,52,64);
-      vertical-align: middle;
-    }
-
-    .navbar a {
-      color: white !important;
-      text-decoration: none;
-    }
-
-    .navbar-brand {
-      font-family: "Passion One";
-      font-size: xx-large;
-      text-transform: uppercase;
-    }
-
-  </style>
+  <!-- Connect to my own CSS stylings -->
+  <link rel="stylesheet" href="additional_styles.css" media="screen" title="no title" charset="utf-8">
 
 </head>
 <body>
@@ -114,7 +21,6 @@
 
     <!-- Navigation -->
     <tr>
-
       <td colspan="10" class="navbar">
         <a class="navbar-brand" href="#">Foodhub</a>
       </td>
@@ -124,27 +30,31 @@
       </td>
 
       <td colspan="1" class="navbar">
-        <a href="#">[Cart icon placeholder]</a>
+        <a href="#"><i class="fa fa-shopping-bag fa-lg"></i></a>
       </td>
-
     </tr>
 
     <!-- Who Delivers -->
     <tr>
-
       <td colspan="12" class="who-delivers centered">
         <h2>Who delivers in your neighborhood?</h2>
-        <label for="exampleInputAddress1">Enter your address below.</label>
-        [Map marker icon placeholder]
-        <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
+
+        <form>
+          <div class="">
+            <label for="exampleInputAddress1">Enter your address below.</label>
+            <div class="">
+              <i class="fa fa-map-marker"></i>
+              <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
+            </div>
+          </div>
+        </form>
+
         <button type="submit" class="primary-button">Find Food</button>
       </td>
-
     </tr>
 
-    <!-- How To Heading -->
+    <!-- How To heading -->
     <tr>
-
       <td colspan="12" class="centered">
         <h2>How to Foodhub</h2>
 
@@ -154,7 +64,7 @@
       </td>
     </tr>
 
-    <!-- How To Content -->
+    <!-- How To content -->
     <tr>
       <td colspan="4" class="centered">
         <img src="images/map.jpg" class="circle-image-big"/>
@@ -181,14 +91,14 @@
       </td>
     </tr>
 
-    <!-- Sound Bites Heading -->
+    <!-- Sound Bites heading -->
     <tr>
       <td colspan="12" class="centered grey-background">
         <h2>Sound bites</h2>
       </td>
     </tr>
 
-    <!-- Sound Bites Content -->
+    <!-- Sound Bites content -->
     <tr>
       <td colspan="3" class="centered grey-background">
         <img src="images/user-1.jpg" class="circle-image-small"/>
@@ -230,8 +140,8 @@
         <p class="tagline">
           Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
         </p>
-        <img src="images/app-store-badge.png" class="store-image"/>
-        <img src="images/google-play-badge.png" class="store-image"/>
+        <img src="images/app-store-badge.png" class="store-image margin-below-bottom-xs"/>
+        <img src="images/google-play-badge.png" class="store-image margin-below-bottom-xs"/>
       </td>
     </tr>
 
