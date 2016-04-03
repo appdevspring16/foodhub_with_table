@@ -18,11 +18,21 @@
     vertical-align: middle;
   }
 
+  .brandmark a {
+    color: white !important;
+    text-decoration: none;
+  }
+
   .header {
     text-align: left;
     color: white;
     background-color: red;
     vertical-align: middle;
+  }
+
+  .header a {
+    color: white !important;
+    text-decoration: none;
   }
 
   .top-cover {
@@ -62,6 +72,22 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  button {
+    color: white;
+    background-color: blue;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: navy;
+  }
+
+  li {
+    margin: 10px;
   }
 
   .img-circle {
