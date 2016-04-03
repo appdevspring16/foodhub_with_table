@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.navbar {
+  background-color: rgb(246, 52, 64);
+  vertical-align: middle;
+}
+
 .heading-row {
   text-align: center;
 }
