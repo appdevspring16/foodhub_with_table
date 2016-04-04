@@ -38,3 +38,11 @@ border-radius: 50%;
 .how-to-cell {
   text-align: center;
 }
+
+.navigation {
+  color: white;
+  background-color: rgb(246, 52, 64);
+  font-size: 32px;
+  height: 36px;
+  vertical-align: middle;
+}
