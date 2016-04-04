@@ -2,6 +2,25 @@
   width: 100%;
 }
 
+.foodhub {
+  color: white;
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+  background-color: red;
+}
+
+.signin{
+  color: white;
+  font-size: 16px;
+  background-color: red;
+}
+
+.shoppingbag{
+  color: white;
+  font-size: 16px;
+  background-color: red;
+}
+
 .headingrow {
   text-align: center;
 }
@@ -13,6 +32,9 @@
 
 .howtocells {
   text-align: center;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 td {
@@ -37,6 +59,76 @@ button {
   background-color: rgb(0,126,229);
   color: white;
   height: 40px;
-  weight: 200px;
+  width: 200px;
   border-radius: 5px;
+}
+
+.soundbitesheading {
+  text-align: center;
+  background-color:rgb(238, 238, 238);
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.soundbiteimages {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.downloadapps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.downloadcontent {
+  font-size: 22px;
+}
+
+.badge {
+  width: 200px;
+}
+
+.whyorderheading {
+  text-align: center;
+  background-color:rgb(238, 238, 238);
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.whyorderimages {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about {
+    text-align: center;
+    vertical-align: top;
+}
+
+.aboutcontent {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  color: white;
+  text-align: left;
+  background-color: rgb(50, 50, 170);
+  vertical-align: top;
+}
+
+.footertext {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul li {
+  padding: 5px;
 }
