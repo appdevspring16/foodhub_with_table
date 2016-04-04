@@ -15,6 +15,15 @@
   text-align: center;
 }
 
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cells {
+  text-align: center;
+}
+
 td {
   border: thin red solid;
 }
@@ -28,6 +37,18 @@ body {
   background: url("main-hero.jpg") no-repeat center center;
  background-size: cover;
  height: 300px;
+}
+
+.hero2 {
+  text-align: center;
+color: white;
+  background: url("download-hero.jpg") no-repeat center center;
+ background-size: cover;
+ height: 300px;
+}
+
+.download-app {
+  font-size: 22px;
 }
 
 button {
