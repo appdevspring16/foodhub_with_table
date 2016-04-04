@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
 td {
   border: thin red solid;
 }
@@ -10,6 +14,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar {
+  color: white;
+  background-color: red;
+}
 .heading-row {
   text-align: center;
 }
@@ -29,7 +37,21 @@ body {
   background: url("main-hero.jpg") no-repeat
   center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+}
+
+.app-download {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background: url("download-hero.jpg") no-repeat
+  center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.app-download-body-text {
+  font-size: 16pt;
 }
 
 button {
@@ -40,7 +62,7 @@ button {
   border-radius: 5px;
 }
 
-.sound-bites-header {
+.sound-bites-heading {
   text-align: center;
 }
 
@@ -51,4 +73,36 @@ button {
 .sound-bites-img {
   width:50px;
   border-radius: 50%;
+}
+
+.dl-link-img {
+  width: 200px;
+}
+
+.why-order-heading {
+  text-align: center;
+}
+
+.why-order-content {
+  text-align: center;
+}
+
+.why-order-img {
+  width:200px;
+  border-radius: 50%
+}
+
+.about-foodhub {
+  text-align: center;
+  vertical-align: top;
+}
+
+.foodhub-desc {
+  vertical-align: middle;
+}
+
+.footer {
+  color: white;
+  background-color: blue;
+  vertical-align: top;
 }

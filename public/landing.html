@@ -8,20 +8,23 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
+  <!-- Margins all over.  Everything else noted and basically done. -->
   <table class="main-content">
     <!-- Row 1-Nav Buttons -->
+    <!-- Address font, background color, font size -->
     <tr>
-      <td colspan="6">
+      <td class="navbar" colspan="6">
         FOODHUB
       </td>
-      <td colspan="3">
+      <td class="navbar" colspan="3">
         Sign In
       </td>
-      <td colspan="3">
+      <td class="navbar" colspan="3">
         <i class="fa fa-shopping-bag"></i>
       </td>
     </tr>
     <!-- Row 2-Hero  -->
+    <!-- Double-check font sizes and see about getting text in input -->
     <tr>
       <td class="hero" colspan="12">
         <h1>Who delivers in your neighborhood?</h1>
@@ -31,7 +34,7 @@
           </div>
           <div>
             <i class="fa fa-map-marker"></i>
-            <input type="text">
+            <input type="text" placeholder="Street address, city, state">
             </input>
           </div>
           <div>
@@ -48,6 +51,7 @@
     </td>
   </tr>
   <!-- Row 4-How to Foodhub Content  -->
+  <!-- Column sizing?  Other alterations? -->
   <tr>
     <td class="how-to-cell" colspan="4">
       <img src="map.jpg" alt="" class="how-to-img">
@@ -72,12 +76,14 @@
     </td>
   </tr>
   <!-- Row 5-Soundbites Heading  -->
+  <!-- Different background color - gray. -->
   <tr>
-    <td class="sound-bites-header" colspan="12">
+    <td class="sound-bites-heading" colspan="12">
       <h2>Sound bites</h2>
     </td>
   </tr>
   <!-- Row 6-Soundbites Content  -->
+  <!-- Different background color - gray. -->
   <tr>
     <td class="sound-bites-content" colspan="3">
       <img src="user-1.jpg" class="sound-bites-img">
@@ -109,51 +115,102 @@
     </td>
   </tr>
   <!-- Row 7-Download Apps  -->
+  <!-- Different background color - gray. -->
   <tr>
-    <td colspan="12">
-      14
+    <td class="app-download" colspan="12">
+      <h2>Download apps</h2>
+      <p class="app-download-body-text">
+        Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
+      </p>
+      <p>
+        <img src="app-store-badge.png" class="dl-link-img">
+        <img src="google-play-badge.png" class="dl-link-img">
+      </p>
     </td>
   </tr>
   <!-- Row 8-Why Order Heading -->
+  <!-- Different background color - gray. -->
   <tr>
-    <td colspan="12">
-      15
+    <td class="why-order-heading" colspan="12">
+      <h2>Why order with Foodhub?</h2>
     </td>
   </tr>
   <!-- Row 9-Why Order Content -->
+  <!-- Different background color - gray. -->
   <tr>
-    <td colspan="4">
-      16
+    <td class="why-order-content" colspan="4">
+      <img src="gem.jpg" class="why-order-img">
+      <h4>Discover</h4>
+      <p>
+        We'll help you discover hidden gems in your neighborhood.
+      </p>
     </td>
-    <td colspan="4">
-      17
+    <td class="why-order-content" colspan="4">
+      <img src="like.jpg" class="why-order-img">
+      <h4>Better</h4>
+      <p>
+        The more you use Foodhub, the better we are at making recommendations just for you.
+      </p>
     </td>
-    <td colspan="4">
-      18
+    <td class="why-order-content" colspan="4">
+      <img src="bite.jpg" class="why-order-img">
+      <h4>Food</h4>
+      <p>
+        Enjoy each bite all the more knowing your order supports local businesses.
+      </p>
     </td>
   </tr>
   <!-- Row 10-About Foodhub -->
   <tr>
-    <td colspan="6">
-      19
+    <td class="about-foodhub" colspan="6">
+      <h2>About Foodhub</h2>
     </td>
-    <td colspan="6">
-      20
+    <td class="foodhub-desc" colspan="6">
+      <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.
+      </p>
     </td>
   </tr>
   <!-- Row 11-Footer -->
-  <tr>
+  <!-- Background color - blue.  Needs some kind of left indent. -->
+  <tr class="footer">
     <td colspan="3">
-      21
+      <h4>Sign up for special offers</h4>
+      <input type="email" name="Email" placeholder="Email">
+      <input type="text" name="zipcode" placeholder="ZIP code" pattern=".{5,5}" required title="5 digit ZIP code only">
+      <button>Send me treats</button>
     </td>
     <td colspan="3">
-      22
+      <h4>Get to know us</h4>
+      <ul>
+        <li>About Grubhub</li>
+        <li>Our apps</li>
+        <li>Our blog</li>
+        <li>Careers</li>
+        <li>Investor relations</li>
+        <li>News</li>
+      </ul>
     </td>
     <td colspan="3">
-      23
+      <h4>Help</h4>
+      <ul>
+        <li>FAQ</li>
+        <li>Contact us</li>
+      </ul>
+      <h4>Connect with us</h4>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>YouTube</li>
+      </ul>
     </td>
     <td colspan="3">
-      24
+      <h4>Partner with us</h4>
+      <ul>
+        <li>For restaurants</li>
+        <li>For drivers</li>
+        <li>For corporate accounts</li>
+      </ul>
     </td>
   </tr>
 
