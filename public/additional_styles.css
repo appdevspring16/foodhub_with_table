@@ -5,6 +5,12 @@
 .navbar {
   background-color: rgb(246, 52, 64);
   vertical-align: middle;
+  color: white;
+}
+
+.navbar-logo {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
 }
 
 .heading-row {
@@ -17,8 +23,26 @@
 
 }
 
-.how-to-cell {
+.centered {
   text-align: center;
+}
+
+.soundbites {
+  background-color: rgb(238, 238, 238);
+}
+
+.soundbites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.why {
+  background-color: rgb(238, 238, 238);
+}
+
+.why-image {
+  width: 200px;
+  border-radius: 50%;
 }
 
 td {
