@@ -10,9 +10,17 @@ button{color: white;font-size: 41; background-color: rgba(0,126,229, 0.9); heigh
 .three{text-align: center}
 .www{font-style: bold;}
 .sound{background-color:rgb(238,238,238); text-align: center}
-.image2{width: 50px;height:50px;border-radius: 50%}
+.image2{width: 60px;height:60px;border-radius: 50%}
 .comment{background-color: rgb(238,238,238);text-align:center }
 .download{background: url(download-hero.jpg) no-repeat center center; background-size:100% 320%; height:400px; ; text-align: center; color: white}
-.user{font-size: 22px}
+.user{font-size: 30px}
 .image3{width:100%}
 .borderless{border: rgba(0,0,0,0);}
+.why{text-align: center;background-color: rgb(238,238,238)}
+.image4{background-color: rgb(238,238,238);text-align: center;}
+.image5{border-radius: 50%;height:200px;width:200px}
+.about{text-align: center}
+.bottom{background-color: rgb(50,50,170); color:white;text-align: left; vertical-align: top}
+.grey{color:grey}
+.treats{background-color: rgb(0,126,229);border-color: rgb(221,221,221);border-radius: 5px;height:40px;width: 200px;color:white}
+li{font-size: 20px;}
