@@ -6,12 +6,24 @@
   text-align: center;
 }
 
+.nav-bar  {
+  background-color: rgb(246,52,64);
+    vertical-align: middle;
+    color: white !important;
+    text-decoration: none;
+}
+
 .how-to-image {
   width:200px;
   border-radius: 50%;
 }
 
 .how-to-cells {
+  text-align: center;
+}
+
+.sound-bites-header {
+  background-color: rgb(238, 238, 238);
   text-align: center;
 }
 
@@ -22,6 +34,31 @@
 
 .sound-bites-cells {
   text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-heading {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.why-order-cells {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.about-1 {
+    text-align: center;
+}
+
+.footer-cells {
+  color: white;
+  background-color: rgb(50, 50, 170);
 }
 
 td {
@@ -29,6 +66,7 @@ td {
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  font-style: 16px;
 }
 
 .hero {
