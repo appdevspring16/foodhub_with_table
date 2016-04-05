@@ -8,6 +8,8 @@ h1, h2, h3, h4 {
 
 td {
   border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 body {
@@ -16,8 +18,36 @@ body {
 
 .navbar {
   color: white;
-  background-color: red;
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
 }
+
+a.navbar-logo {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+a.navbar-logo:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:active
+{
+   color: white;
+   text-decoration: none;
+}
+
 .heading-row {
   text-align: center;
 }
@@ -51,7 +81,7 @@ body {
 }
 
 .app-download-body-text {
-  font-size: 16pt;
+  font-size: 22px;
 }
 
 button {
