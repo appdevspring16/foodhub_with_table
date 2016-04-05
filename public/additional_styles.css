@@ -2,8 +2,22 @@
   width: 100%;
 }
 
+.main-nav{
+  background-color: rgb(246,52,64);
+  color: white;
+  vertical-align: middle;
+}
+
+.brand{
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
 td {
   border: thin red solid;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 body{
@@ -17,6 +31,7 @@ body{
 .hero{
   color: white;
   text-align: center;
+  vertical-align: middle;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
@@ -36,5 +51,52 @@ button {
 }
 
 .how-to-cell{
+  text-align: center;
+}
+
+.sound-bite-image{
+  width: 50px;
+  border-radius: 50%
+}
+
+.sound-bite-cell{
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.download{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background: url("download-hero.jpg") no-repeat center left;
+  background-size: cover;
+  height: 350px;
+}
+
+.why-order-cell{
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.app-store-image {
+  width: 250px;
+}
+
+.google-play-image {
+  width: 250px;
+}
+
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer-cell{
+  vertical-align: text-top;
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
+
+.about-cell{
   text-align: center;
 }
