@@ -10,13 +10,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navigation {
+  background-color: rgb(246, 52, 64);
+  color: white;
+  font-size: 16px;
+  height: 36px;
+}
+
+.navigation-foodhub {
+  background-color: rgb(246, 52, 64);
+  color: white;
+  font-size: 32px;
+  height: 36px;
+  font-family: 'Passion One', cursive;
+}
+
 .hero {
   color: white;
 
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
 background-size: cover;
-height: 300px;
+height: 400px;
 }
 
 button {
@@ -38,4 +53,59 @@ border-radius: 50%;
 
 .how-to-cell {
 text-align: center;
+}
+
+.sound-bites {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cell {
+text-align: center;
+background-color: rgb(238, 238, 238);
+height: 265px;
+}
+
+.download-app-badge {
+  width: 200px;
+}
+
+.download-app-cell {
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+background-size: cover;
+height: 400px;
+color: white;
+}
+
+.why-order-heading-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-cell {
+text-align: center;
+background-color: rgb(238, 238, 238);
+height: 397px;
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer-cell {
+  background-color: rgb(50, 50, 170);
+  color: white;
+  height: 302px;
+}
+
+.h3 {
+  font-weight: bold;
+  font-size: 16px;
 }
