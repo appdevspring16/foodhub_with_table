@@ -1,1 +1,16 @@
-h1{color: red;}
+.main-content {
+  width: 100%;
+}
+
+td {
+  border: thin red solid;
+}
+
+.hero{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+    background: url("main-hero.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+  }
