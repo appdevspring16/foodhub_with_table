@@ -1,0 +1,9 @@
+.header {width: 100%;}
+td {border: thin red solid;}
+body{font-family: 'Montserrat', sans-serif}
+.deliver{color: white; text-align: center;background: url(main-hero.jpg) no-repeat center center; background-size: cover; height: 300px;}
+button{color: white;font-size: 41; background-color: rgba(0,126,229, 0.9); height: 40px; width: 150px; border-radius: 5px}
+.how{color:black;text-align: center}
+.image1{width: 200px; height: 200px; border-radius: 50%;}
+.three{text-align: center}
+.www{font-style: bold;}
