@@ -94,10 +94,12 @@ button {
 
 .sound-bites-heading {
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .sound-bites-content {
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .sound-bites-img {
@@ -111,10 +113,12 @@ button {
 
 .why-order-heading {
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .why-order-content {
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .why-order-img {
@@ -133,6 +137,6 @@ button {
 
 .footer {
   color: white;
-  background-color: blue;
+  background-color: rgb(50, 50, 170);
   vertical-align: top;
 }
