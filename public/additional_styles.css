@@ -44,5 +44,14 @@ button {
   border-radius: 50%;
 }
 .how-to-cell {
-text-align: center; 
+text-align: center;
+}
+.soundbites {
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+}
+.soundbites-image {
+  width: 100px;
+  border-radius: 50%;
+
 }
