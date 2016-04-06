@@ -27,23 +27,19 @@ a.navbar-logo {
   font-size: xx-large;
 }
 
-a.navbar-logo:link
-{
+a.navbar-logo:link {
    color: white;
    text-decoration: none;
 }
-a.navbar-logo:visited
-{
+a.navbar-logo:visited {
    color: white;
    text-decoration: none;
 }
-a.navbar-logo:hover
-{
+a.navbar-logo:hover {
    color: white;
    text-decoration: none;
 }
-a.navbar-logo:active
-{
+a.navbar-logo:active {
    color: white;
    text-decoration: none;
 }
@@ -54,6 +50,8 @@ a.navbar-logo:active
 
 .how-to-cell {
   text-align: center;
+  vertical-align: top;
+  margin-top: 20px;
 }
 
 .how-to-img {
@@ -83,13 +81,18 @@ a.navbar-logo:active
 .app-download-body-text {
   font-size: 22px;
 }
-
+/*Slower hover transition*/
 button {
   background-color: rgb(0, 126, 229);
   color:white;
   height:40px;
   width: 200px;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+/*Different color*/
+button:hover {
+  background-color: rgb(0, 65, 117);
 }
 
 .sound-bites-heading {
@@ -99,7 +102,9 @@ button {
 
 .sound-bites-content {
   text-align: center;
+  vertical-align: top;
   background-color: rgb(238, 238, 238);
+  margin-top: 20px;
 }
 
 .sound-bites-img {
@@ -118,6 +123,7 @@ button {
 
 .why-order-content {
   text-align: center;
+  vertical-align: top;
   background-color: rgb(238, 238, 238);
 }
 
