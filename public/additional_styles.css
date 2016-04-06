@@ -68,3 +68,13 @@ button {
   width: 200px;
   border-radius: 5px
 }
+
+.downloadapps {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
