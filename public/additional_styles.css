@@ -23,6 +23,10 @@
   font-size: 130%;
 }
 
+.sound-bites {
+  background-color: rgb(238, 238, 238);
+}
+
 td {
   border: thin red solid;
 }
@@ -33,6 +37,10 @@ body {
 
 h1 {
   font-size: 140%;
+}
+
+h2 {
+  text-align: center;
 }
 
 .hero {
@@ -58,6 +66,13 @@ button {
 .how-to-image {
   width: 200px;
   border-radius: 50%;
+}
+
+.user-photos {
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
 }
 
 .how-to-cell {
