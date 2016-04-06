@@ -53,6 +53,7 @@ border-radius: 50%;
 
 .how-to-cell {
 text-align: center;
+  vertical-align: top;
 }
 
 .sound-bites {
@@ -63,12 +64,13 @@ text-align: center;
 .sound-bites-image {
   width: 50px;
   border-radius: 50%;
-}
+  }
 
 .sound-bites-cell {
 text-align: center;
 background-color: rgb(238, 238, 238);
 height: 265px;
+  vertical-align: top;
 }
 
 .download-app-badge {
@@ -92,6 +94,7 @@ color: white;
 text-align: center;
 background-color: rgb(238, 238, 238);
 height: 397px;
+  vertical-align: top;
 }
 
 .why-order-image {
@@ -103,9 +106,24 @@ height: 397px;
   background-color: rgb(50, 50, 170);
   color: white;
   height: 302px;
+  vertical-align: top;
+}
+
+.about-cell {
+    vertical-align: top;
+}
+
+.h2 {
+  text-align: center;
 }
 
 .h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.h5 {
   font-weight: bold;
   font-size: 16px;
 }
