@@ -21,7 +21,6 @@ td{
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
 }
 .hero{
   color: white;
@@ -38,66 +37,3 @@ button{
   width: 200px;
   border-radius: 5px;
 }
-
-.sound-bites-image {
-  width: 50px;
-  border-radius: 50%;
-}
-
-.sound-bites-heading{
-  text-align: center;
-  background-color: rgb(238,238,238)
-}
-
-.sound-bites-cell{
-  text-align: center;
-  background-color: rgb(238,238,238);
-  vertical-align: top;
-}
-
-.download-hero{
-  color: white;
-  text-align: center;
-  background: url("download-hero.jpg") no-repeat center center;
-  background-size: cover;
-  height: 400px;
-}
-
-.download-image{
-  width: 200px;
-  border-radius: 50%
-}
-
-.why-order-heading{
-  text-align: center;
-  background-color: rgb(238,238,238)
-}
-
-.why-order-content{
-  text-align: center;
-  background-color: rgb(238,238,238)
-}
-
-.about-heading-row{
-  text-align: center;
-  vertical-align: text-top;
-}
-
-.footer{
-background-color: rgb(50, 0, 190);
-color: white;
-vertical-align: text-top;
-}
-
-.Navigation{
-  background-color: rgb(246,52,64);
-  color: white;
-}
-
-.navbar-brand{
-  background-color: rgb(246,52,64);
-  color: white;
-  font-size: xx-large;
-  font-family: 'Passion One', cursive;
-  width: 900px;
-  }
