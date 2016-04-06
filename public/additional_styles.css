@@ -25,3 +25,16 @@ button {
   width: 200px;
   border-radius: 5px;
 }
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
