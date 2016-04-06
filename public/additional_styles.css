@@ -83,9 +83,25 @@ border-radius: 50%;
   font-size: 22px
 }
 
+.why-order-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  font-size: 16px
+}
 
+.centered {
+  text-align: center;
+}
 
+.footer {
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
 
+.li-footer {
+  color: white
+  margin-bottom: 10px;
+}
 
 /*Standard vertical spacing classes!*/
 
