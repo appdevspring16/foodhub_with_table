@@ -21,7 +21,7 @@ body {
   height: 400px;
 }
 .bar1 {
-  background-color: red;
+  background-color: rgb(246,52,64);
   width: 200px;
   height: 40px;
   color: white;
@@ -44,11 +44,16 @@ button {
   border-radius: 50%;
 }
 .how-to-cell {
-text-align: center;
+  text-align: center;
 }
+.how-to-cell-2 {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
 .soundbites {
   text-align: center;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(238, 238, 238);
 }
 .soundbites-image {
   width: 100px;
@@ -73,15 +78,23 @@ text-align: center;
 }
 .footer {
   text-align: left;
-  background-color: blue;
+  background-color: rgb(50, 50, 170);
   color: white;
-  margin-left: 20px;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
 }
 .foodhub {
   font-size: xx-large;
-font-family: 'Passion One', cursive;
+  font-family: 'Passion One', cursive;
 }
 .list-footer {
   color: white;
   margin-bottom: 10px;
+}
+.centered {
+  text-align: center;
+
 }
