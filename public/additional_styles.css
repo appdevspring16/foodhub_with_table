@@ -3,7 +3,10 @@
 }
 
 td {
-  border: thin red solid
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
 }
 
 body {
@@ -13,10 +16,10 @@ body {
 .hero {
   color: white;
   text-align: center;
-  background: url("main-hero.jpg");no-repeat center center;
+  background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 400px;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 button {
@@ -68,10 +71,10 @@ border-radius: 50%;
 .download-apps {
   color: white;
   text-align: center;
-  background: url("download-hero.jpg");no-repeat center center;
+  background: url("download-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 400px;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .store-badge {
@@ -99,7 +102,14 @@ border-radius: 50%;
 }
 
 .li-footer {
-  color: white
+  color: white;
+  margin-bottom: 10px;
+}
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
