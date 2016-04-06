@@ -55,3 +55,33 @@ text-align: center;
   border-radius: 50%;
 
 }
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.downloadapps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+.footer {
+  text-align: left;
+  background-color: blue;
+  color: white;
+  margin-left: 20px;
+}
+.foodhub {
+  font-size: xx-large;
+font-family: 'Passion One', cursive;
+}
+.list-footer {
+  color: white;
+  margin-bottom: 10px;
+}
