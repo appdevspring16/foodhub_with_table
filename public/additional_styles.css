@@ -1,22 +1,46 @@
 /*h1 {*/
-  /*color: red;*/
+/*color: red;*/
 /*}*/
 
 .main-content{
-width:100%;
+  width:100%;
+}
+
+.nav-row{
+  background-color: red;
+  color: white;
+  height: 40px;
 }
 
 .heading-row{
   text-align: center;
+
 }
 
 .how-to-image{
-width: 200px;
-border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .how-to-cell{
-text-align: center;
+  text-align: center;
+}
+
+.sound-bites-head{
+  text-align: center;
+  height: 40px;
+  background-color: lightgrey;
+}
+
+.sound-bites{
+  text-align: center;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+.happypeeps{
+  width: 50px;
+  border-radius: 50%;
 }
 
 td {
@@ -24,7 +48,7 @@ td {
 }
 
 body{
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
@@ -34,13 +58,13 @@ font-family: 'Montserrat', sans-serif;
   background: url("main-hero.jpg")
   no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 button {
-background-color: rgb(0,126,229);
-color: white;
-height: 40px;
-width: 200px;
-border-radius: 5px
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px
 }
