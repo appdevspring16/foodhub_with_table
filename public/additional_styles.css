@@ -4,8 +4,13 @@
 
 .main-nav{
   background-color: rgb(246,52,64);
-  color: white;
   vertical-align: middle;
+  color: white;
+}
+
+.main-nav a{
+  color: white !important;
+  text-decoration: none;
 }
 
 .brand{
@@ -43,6 +48,9 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(0, 65, 117)
 }
 
 .how-to-image{
