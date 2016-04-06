@@ -69,7 +69,7 @@ text-align: center;
 .sound-bites-cell {
 text-align: center;
 background-color: rgb(238, 238, 238);
-height: 265px;
+height: 264px;
   vertical-align: top;
 }
 
@@ -126,4 +126,8 @@ height: 397px;
 .h5 {
   font-weight: bold;
   font-size: 16px;
+}
+
+.bullet {
+  text-align: left;
 }
