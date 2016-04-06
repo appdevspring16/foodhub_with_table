@@ -39,7 +39,7 @@ body{
   vertical-align: middle;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 button {
@@ -78,7 +78,7 @@ button:hover{
   vertical-align: middle;
   background: url("download-hero.jpg") no-repeat center left;
   background-size: cover;
-  height: 350px;
+  height: 400px;
 }
 
 .why-order-cell{
