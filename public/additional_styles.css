@@ -91,6 +91,13 @@ button {
   display: block;
 }
 
+.why-photos {
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+}
+
 .how-to-cell {
   text-align: center;
 }
