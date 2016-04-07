@@ -51,6 +51,7 @@ a.navbar-logo:active {
 .how-to-cell {
   text-align: center;
   vertical-align: top;
+  padding-top: 10px;
 }
 
 .how-to-img {
@@ -103,6 +104,7 @@ button:hover {
   text-align: center;
   vertical-align: top;
   background-color: rgb(238, 238, 238);
+  padding-top: 10px;
 }
 
 .sound-bites-img {
@@ -123,6 +125,7 @@ button:hover {
   text-align: center;
   vertical-align: top;
   background-color: rgb(238, 238, 238);
+  padding-top: 10px;
 }
 
 .why-order-img {
@@ -143,4 +146,5 @@ button:hover {
   color: white;
   background-color: rgb(50, 50, 170);
   vertical-align: top;
+  padding-top: 10px;
 }
