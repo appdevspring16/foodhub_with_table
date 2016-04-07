@@ -56,7 +56,7 @@ a.navbar-logo:active {
 .how-to-img {
   width: 200px;
   border-radius: 50%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hero{
@@ -109,7 +109,7 @@ button:hover {
 .sound-bites-img {
   width:50px;
   border-radius: 50%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .dl-link-img {
@@ -130,7 +130,7 @@ button:hover {
 .why-order-img {
   width:200px;
   border-radius: 50%
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-foodhub {
