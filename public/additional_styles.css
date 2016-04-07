@@ -38,3 +38,59 @@ button {
 .how-to-cell {
   text-align: center;
 }
+
+.sound-bytes {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bytes-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bytes-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.navigation {
+  background-color: rgb(246,52,64);
+  color: white;
+}
+
+.download-image {
+  width: 200px
+}
+
+.download-apps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.why-order {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.about {
+  text-align: center;
+}
+
+.footer-cell {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
