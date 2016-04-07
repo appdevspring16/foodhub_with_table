@@ -20,7 +20,7 @@
   vertical-align: middle;
 }
 
-.topnav a {
+.topnav, a {
   color: white;
   text-decoration: none;
 }
@@ -40,6 +40,10 @@ text-align:center;
 }
 .grayback {
   background-color: rgb(238, 238, 238);
+}
+
+.leftpad {
+  padding-left: 40px;
 }
 
 td {
