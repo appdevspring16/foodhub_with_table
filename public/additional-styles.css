@@ -80,6 +80,8 @@ cursor: auto;
 }
 td {
   border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 body {
