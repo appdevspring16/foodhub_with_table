@@ -2,15 +2,40 @@
   width: 100%;
 }
 
+.heading-row{
+  text-align: center;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
 td {
   border: thin red solid;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .hero{
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+    color: white;
     background: url("main-hero.jpg") no-repeat center center;
     background-size: cover;
     height: 300px;
   }
+
+button {
+  background-color: rgba(0, 126, 229, 1);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
