@@ -101,3 +101,23 @@ button {
 .how-to-cell {
   text-align: center;
 }
+
+.about-cell {
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
+
+.footer-cells {
+  vertical-align: top;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.li-footer {
+  margin-bottom: .7em;
+}
