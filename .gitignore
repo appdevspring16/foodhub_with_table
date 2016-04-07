@@ -17,3 +17,11 @@
 /tmp
 .env
 
+
+*.jpg
+
+public/app-store-badge.png
+
+public/landing.html
+
+public/google-play-badge.png

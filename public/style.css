@@ -1,0 +1,85 @@
+.main-content {width:100%;}
+
+.heading-row {
+  text-align: center;
+}
+
+
+.heading-row-align{
+  text-align: center;
+  vertical-align: top;
+}
+
+.navigation-format {
+  background-color: rgb(246,52,64);
+  color: white;
+  font-size: x-large;
+}
+
+.how-to-image {
+  width:200px;
+  border-radius:50%;
+
+}
+
+.how-to-user-image{
+  width: 50px;
+  border-radius:50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+td {border:thin red solid}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color:white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background:url("main-hero.jpg") no-repeat center center;
+  background-size:cover;
+  height: 300px;
+
+
+}
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height:40px;
+  width:200px;
+  border-radius: 5px;
+}
+
+.download-hero {
+
+
+    color:white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background:url("download-hero.jpg") no-repeat center center;
+    background-size:cover;
+    height: 400px;
+    vertical-align: middle;
+
+}
+
+.image-badge {
+width:200px;
+
+
+}
+
+.footer-format {
+background-color: rgb(50, 50, 170);
+color:white;
+vertical-align:top;
+padding-left:10px;
+padding-right:10px;
+
+}
