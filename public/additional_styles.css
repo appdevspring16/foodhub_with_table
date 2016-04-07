@@ -147,3 +147,11 @@ button:hover {
   background-color: rgb(50, 50, 170);
   vertical-align: top;
 }
+
+.footer-heading {
+  margin-bottom:10px;
+}
+
+.footer-list {
+  margin-bottom: 10px;
+}
