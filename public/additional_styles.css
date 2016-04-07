@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.soundbite-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
 td {
   border: thin red solid;
 }
@@ -38,4 +43,20 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.download-hero{
+  text-align: center;
+    color: white;
+    background: url("download-hero.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+  }
+
+.tagline{
+  font-size: 22px;
+}
+
+.about-cell{
+  text-align: left;
 }
