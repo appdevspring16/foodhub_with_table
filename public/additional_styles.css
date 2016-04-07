@@ -2,7 +2,7 @@
 td{border: thin red solid;}
 body{font-family: 'Montserrat', sans-serif}
 .first_row{color:white;background-color: rgb(246,52,64);}
-.first_row_foodhub{font-size: 22px;font-weight: bold}
+.first_row_foodhub{font-size: 22px;font-weight: bold；font-family: 'Passion One', cursive;}
 .deliver{color: white; text-align: center;background: url(main-hero.jpg) no-repeat center center; background-size: cover; height: 300px;}
 button{color: white;font-size: 41; background-color: rgba(0,126,229, 0.9); height: 40px; width: 150px; border-radius: 5px}
 .how{color:black;text-align: center}
@@ -26,3 +26,6 @@ button{color: white;font-size: 41; background-color: rgba(0,126,229, 0.9); heigh
 li{font-size: 15px;text-indent:10px}
 .map{color:grey}
 .long{font-size:15px;}
+.button_1{width:200px;heigh:50px;border-radius: 5px;}
+.button_1:hover{background-color: rgb(0,70,255)}
+form_1{padding:10px}
