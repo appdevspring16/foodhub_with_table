@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.nav-cell {
+  color: white;
+  background-color: rgb(246,52,64);
+}
+
 .heading-row {
   text-align: center;
 }
@@ -13,6 +18,43 @@
 
 .how-to-cell {
   text-align: center;
+}
+
+.sound-bites-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.download-cell {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.download-badges {
+width:200px;
+}
+
+.why-order {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer-cell {
+color: white;
+background-color: rgb(50, 50, 170);
 }
 td {
   border: thin red solid;
