@@ -8,7 +8,7 @@ width:100%;
   vertical-align: middle;
   font-family: "Passion One";
   font-size: xx-large;
-  padding-left: 10px;
+  padding-left: 6px;
   text-decoration: none;
   cursor: auto;
 }
@@ -18,6 +18,8 @@ background-color: rgb(246,52,64);
 color: white;
 vertical-align: middle;
 text-decoration: none;
+font-size: 20px;
+padding-left: 6px;
 cursor: auto;
 }
 
