@@ -1,0 +1,98 @@
+.main-content{
+  width: 100%;
+}
+td{
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p,h2{
+  text-align: center;
+}
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+
+}
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+}
+
+.how-to-images{
+  width: 200px;
+  border-radius: 50%
+}
+
+.how-to-cell{
+  text-align: center;
+  vertical-align: top;
+}
+.head{
+  color: white;
+  text-align:left;
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+.comment-images{
+  width: 50px;
+  border-radius: 50%
+}
+
+.grey{
+  background-color: rgb(238, 238, 238);
+}
+
+.comments-cell{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  vertical-align: top;
+}
+
+.how-to-cell-2{
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+}
+
+.footer{
+  text-align: left;
+  vertical-align: top;
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
+
+.description{
+  text-align: left;
+}
+
+.mid-hero{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.tag{
+  font-size: 22px;
+  font-style: normal;
+}
+.badge{
+  width: 200px;
+}
