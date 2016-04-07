@@ -96,3 +96,7 @@ button {
 .badge{
   width: 200px;
 }
+
+li{
+  margin-bottom: 10px;
+}
