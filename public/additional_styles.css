@@ -101,3 +101,8 @@ vertical-align: text-top;
   font-family: 'Passion One', cursive;
   width: 900px;
   }
+
+.download-image-badges{
+  width: 200px;
+  margin-bottom: 10px;
+}
