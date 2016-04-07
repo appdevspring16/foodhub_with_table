@@ -26,9 +26,11 @@ li{
 .navigation-row{
   background-color: rgb(246,52,64);
   color: white;
+  vertical-align: middle;
 }
 
 .navigation-name{
+  font-family: 'Passion One';
   font-size: xx-large;
 }
 
@@ -88,7 +90,6 @@ li{
 
 .footer-main{
   vertical-align: top;
-
   color: white;
   background: rgb(50, 50, 170);
 }
