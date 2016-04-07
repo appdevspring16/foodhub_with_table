@@ -27,7 +27,6 @@ body {
 
 .hero {
   color: white;
-
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
 background-size: cover;
@@ -130,4 +129,5 @@ height: 397px;
 
 .bullet {
   text-align: left;
+    margin-bottom: 10px;
 }
