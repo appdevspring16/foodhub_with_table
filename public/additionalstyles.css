@@ -1,6 +1,5 @@
 .main-content{
   width:100%;
-
 }
 td {
   border: thin red solid;
@@ -35,3 +34,71 @@ border-radius: 50%;
 .howtocell{
   text-align: center;
 }
+.brand {
+    font-family: "Passion One";
+    font-size: xx-large;
+}
+.nbrand {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+.nbrand a {
+  color: white !important;
+  text-decoration: none;
+}
+.users {
+  width: 50px;
+  border-radius: 50%
+}
+
+.sound-bites, .why-order {
+text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+.apps{
+color: white;
+text-align: center;
+background: url("download-hero.jpg")
+no-repeat center center;
+background-size:cover;
+height: 400px;
+  }
+  .tagline {
+    font-size: 22px;
+  }
+  .store-badge {
+    width: 200px;
+  }
+  .why {
+    width: 150px;
+    border-radius: 50%
+  }
+  .round-image {
+    border-radius: 50%;
+  }
+  .spotlight-image {
+    width: 200px;
+  }
+  .margin-below-bottom-sm {
+    margin-bottom: 20px;
+  }
+  h1, h2, h3, h4 {
+    font-weight: 700;
+  }
+  .centered {
+    text-align: center;
+  }
+  .footer {
+    background-color: rgb(50, 50, 170);
+  }
+  .h4-footer  {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .li-footer {
+    color: white;
+    margin-bottom: 10px;
+  }
