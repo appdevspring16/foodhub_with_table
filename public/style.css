@@ -11,8 +11,9 @@
 }
 
 .navigation-format {
-  background-color: red;
+  background-color: rgb(246,52,64);
   color: white;
+  font-size: x-large;
 }
 
 .how-to-image {
