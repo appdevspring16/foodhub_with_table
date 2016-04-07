@@ -3,9 +3,20 @@
 }
 td{
   border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.title{
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+}
+.nav-row{
+color: white !important;
+background-color: rgb(246,52,64)
 }
 .heading-row{
   text-align:center;
@@ -31,4 +42,134 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+.sound-bite-image{
+  width:50px;
+  border-radius: 50%
+}
+.sound-bite-cell{
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.download-apps {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+.tagFont{
+font-size: 22;
+}
+.store-badge {
+  width: 200px;
+}
+.why-order {
+  background-color: rgb(238, 238, 238);
+}
+.why-order-image{
+border-radius: 50%;
+width: 200px;
+}
+.centered {
+  text-align: center;
+}
+.footer {
+background-color: rgb(50, 50, 170);
+vertical-align: top;
+  color: white;
+}
+.h4-footer  {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.li-footer {
+  margin-bottom: 10px;
+}
+/* My standard vertical spacing classes */
+
+.padding-inside-top-xs {
+  padding-top: 10px;
+}
+
+.padding-inside-top-sm {
+  padding-top: 20px;
+}
+
+.padding-inside-top-md {
+  padding-top: 50px;
+}
+
+.padding-inside-top-lg {
+  padding-top: 150px;
+}
+
+.padding-inside-top-xl {
+  padding-top: 200px;
+}
+
+.padding-inside-bottom-xs {
+  padding-bottom: 10px;
+}
+
+.padding-inside-bottom-sm {
+  padding-bottom: 20px;
+}
+
+.padding-inside-bottom-md {
+  padding-bottom: 50px;
+}
+
+.padding-inside-bottom-lg {
+  padding-bottom: 150px;
+}
+
+.padding-inside-bottom-xl {
+  padding-bottom: 200px;
+}
+
+.margin-above-top-xs {
+  margin-top: 10px;
+}
+
+.margin-above-top-sm {
+  margin-top: 20px;
+}
+
+.margin-above-top-md {
+  margin-top: 50px;
+}
+
+.margin-above-top-lg {
+  margin-top: 150px;
+}
+
+.margin-below-bottom-xs {
+  margin-bottom: 10px;
+}
+
+.margin-below-bottom-sm {
+  margin-bottom: 20px;
+}
+
+.margin-below-bottom-md {
+  margin-bottom: 50px;
+}
+
+.margin-below-bottom-lg {
+  margin-bottom: 150px;
+}
+
+.margin-below-bottom-xl {
+  margin-bottom: 200px;
 }
