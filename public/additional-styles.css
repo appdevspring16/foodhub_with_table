@@ -91,3 +91,7 @@ body{
 .sound-bites, .why-order {
   background-color: rgb(238, 238, 238);
 }
+
+.tagline{
+  font-size: 22px;
+}
