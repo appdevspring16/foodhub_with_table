@@ -13,8 +13,17 @@
     height: 35px
   }
 
+.navigation-bar a {
+      color: white;
+      text-decoration: none;
+  }
+
 .brand {
-      font-size: x-large;
+      font-family: "Passion One";
+      font-size: xx-large;
+      vertical-align: middle;
+      color: white;
+      text-decoration: none;
   }
 
 .how-to-image{
@@ -72,6 +81,10 @@ button {
   border-radius: 5px;
 }
 
+button:hover{
+  background-color: rgba(0, 65, 117, 1);
+}
+
 .download-hero{
   text-align: center;
     color: white;
@@ -80,6 +93,7 @@ button {
     height: 400px;
     vertical-align: middle;
   }
+
 
 .tagline{
   font-size: 22px;
