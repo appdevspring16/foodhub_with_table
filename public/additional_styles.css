@@ -2,16 +2,42 @@
   width:100%;
 }
 
-td{
-  border: thin red solid;
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
 }
 
+td{
+  border: thin red solid;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+li{
+  text-indent:1em;
+  padding-bottom: 10px;
+}
+
 .heading-row{
   text-align: center;
+}
+
+.navigation-row{
+  background-color: rgb(246,52,64);
+  color: white;
+}
+
+.navigation-name{
+  font-size: xx-large;
+}
+
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
 }
 
 .how-to-image{
@@ -23,12 +49,47 @@ body{
   text-align: center;
 }
 
-.hero{
+.sound-bites-main{
+  text-align: center;
+  background: rgb(238,238,238)
+}
+
+.sound-bites-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.download-main{
   color: white;
   text-align: center;
-  background: url("main-hero.jpg") no-repeat center center;
+  background: url("download-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
+}
+
+.download-image{
+  height:50px;
+}
+
+.why-order-main{
+  text-align: center;
+  background: rgb(238,238,238);
+}
+
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-main{
+  text-align: center;
+}
+
+.footer-main{
+  vertical-align: top;
+
+  color: white;
+  background: rgb(50, 50, 170);
 }
 
 button{
