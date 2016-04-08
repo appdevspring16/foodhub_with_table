@@ -78,3 +78,16 @@ button {
   background-size: cover;
   height: 400px;
 }
+
+.badge {
+  height: 60px;
+}
+
+.aboutfoodhub {
+  text-align: center;
+}
+
+.footerblue {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
