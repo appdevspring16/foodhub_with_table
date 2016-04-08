@@ -56,7 +56,17 @@ button {
 
 .navigation {
   background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navigation a {
   color: white;
+  text-decoration: none
+}
+
+.navbar-brand {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
 }
 
 .download-image {
@@ -93,4 +103,20 @@ button {
 .footer-cell {
   color: white;
   background-color: rgb(50, 50, 170);
+}
+
+.million {
+  font-size: 22px;
+}
+
+.h4-footer {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+ margin-bottom: 10px;
 }
