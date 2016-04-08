@@ -38,7 +38,7 @@ body{font-family: 'Montserrat', sans-serif;
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 button {
@@ -53,7 +53,8 @@ button {
   text-align: center;
   background: url("download-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;}
+  height: 400px;}
+
   .download-app-img {
     height: 50px;
     border-radius: 5px;
