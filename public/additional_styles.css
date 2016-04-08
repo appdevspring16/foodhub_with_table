@@ -2,6 +2,10 @@
 .heading-row {
   text-align: center;
 }
+.sound-bite-row {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
 .how-to-image {
   width: 200px;
   border-radius: 50%
@@ -10,23 +14,62 @@
   text-align: center;
 }
 
+.navigation {
+  color:white;
+  background-color: red;
+}
+.sound-bite-img {
+  width: 50px;
+  border-radius: 50%;
+}
+.sound-bite {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+
 td {border: thin red solid}
 
 body{font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
-color: white;
-text-align: center;
-background: url("main-hero.jpg") no-repeat center center;
- background-size: cover;
- height: 300px;
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
 }
 
 button {
-  background-color: rgb(0, 126, 229)
+  background-color: rgb(0, 126, 229);
   color: white;
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+.download-apps-row {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;}
+  .download-app-img {
+    height: 50px;
+    border-radius: 5px;
+  }
+  .why-order-cell {
+      text-align: center;
+      background-color: rgb(238, 238, 238);
+  }
+  .about-foodhub {
+    text-align: center;
+  }
+  .about-foodhub-body {
+    text-align:justify;
+  }
+.footer{
+  background-color: rgb(50, 50, 170);
+  color: white;
+
 }
