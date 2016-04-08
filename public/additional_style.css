@@ -1,0 +1,88 @@
+.main-content {
+  width: 100%;
+}
+
+.nav-bar {
+  background-color: rgb(246,52,64);
+  font-size: 30px;
+  color: white;
+}
+
+td  {
+  border: thin red solid;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.wanttogotosleep {
+  height: 450px;
+  font-size: 10px;
+}
+
+.appimage {
+  height: 70px
+}
+
+.app {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 150px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.gray {
+  background-color: rgb(238, 238, 238);
+}
+
+.text {
+  height: 150px;
+}
+
+.almostdone{
+  vertical-align: top;
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
