@@ -1,22 +1,31 @@
 table {width: 100%;}
 td {border: thin red solid}
+body {font-family: 'Montserrat', sans-serif;}
+.heading {background-color: rgb(246, 52, 64);; color: white;}
+.header {padding-left: 10px; font-family: 'Passion One', cursive; font-size: 32px; font-weight: 400;}
+.header2 {padding-left: 10px}
+.shopping-bag {padding-left: 10px; font-size: 22px}
 .hero {text-align: center; background: url("main-hero.jpg") no-repeat center center;
 background-size: cover;
 height: 440px; color: white;}
-.How-to-Foodhub-headings {text-align: center;}
-.Why-order-with-foodhub-headings {text-align: center; background-color: whitesmoke}
-.sound-bites-heading {text-align: center; background-color: whitesmoke;}
+.find-food-button {background-color: rgb(0, 126, 229); color: white; height: 42px; width: 200px}
+.How-to-Foodhub-headings {text-align: center; padding-top: 16px}
+h1 {font-size: 24px; font-weight: bold}
+h2 {font-size: 16px; font-weight: 400}
+h3 {padding-top: 30px;font-size: 16px; font-weight: bold}
+h4 {font-size: 24px; font-weight: 400}
+.sound-bites-heading {padding-top: 16px; text-align: center; background-color: rgb(238, 238, 238)}
+.sound-bite-cells {padding-left: 12px; padding-right: 16px; text-align: center; background-color: rgb(238, 238, 238)}
 .download-hero {text-align: center; background: url(download-hero.jpg) no-repeat center center; background-size: cover; height: 440px; color: white;}
-body {font-family: 'Montserrat', sans-serif;}
-h1 {font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: bold;}
-h2 {font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; }
+.Why-order-with-foodhub-headings {padding-top: 16px; text-align: center; background-color: rgb(238, 238, 238);}
 .how-to-images {width: 200px; border-radius: 50%}
 .how-to-cells {text-align: center;}
-.sound-bite-cells {text-align: center; background-color: whitesmoke;}
 .user-images {width:50px; border-radius: 50%}
-.why-order-cells {text-align: center; background-color: whitesmoke}
+.why-order-cells {text-align: center; background-color: rgb(238, 238, 238);}
 .reasons {width: 200px; border-radius: 50%}
-.Title {font-family: 'Passion One', cursive; font-size: 32px; font-weight: 700;}
-.Heading {background-color: red; color: white;}
-.footer {background-color: blue; color: white;}
+.footer {background-color: rgb(50, 50, 170); color: white}
 .Download-badges {width: 200px}
+
+.about-foodhub {text-align: center;}
+.treats-button {background-color: rgb(0, 126, 229); color: white; height: 42px; width: 200px}
+li {margin-bottom: 10px}
