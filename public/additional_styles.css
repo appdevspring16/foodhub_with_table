@@ -1,82 +1,82 @@
 .main-content {
-    width: 100%;
+  width: 100%
+}
+
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  color: white;
+  background-color: rgb(246,52,64);
 }
 
 .heading-row {
   text-align: center;
 }
 
-.nav-bar  {
-  background-color: rgb(246,52,64);
-    vertical-align: middle;
-    color: white !important;
-}
-
 .how-to-image {
-  width:200px;
-  border-radius: 50%;
+  width: 200px;
+  border-radius: 50%
 }
 
-.how-to-cells {
+.how-to-cell {
   text-align: center;
 }
 
-.sound-bites-header {
+.sound-row {
+  text-align: center;
   background-color: rgb(238, 238, 238);
-  text-align: center;
 }
 
 .sound-bites-image {
   width: 50px;
-  border-radius: 50%;
+  border-radius: 50%
 }
 
-.sound-bites-cells {
+.sound-bites-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-row {
   text-align: center;
   background-color: rgb(238, 238, 238);
 }
 
 .why-order-image {
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50%
 }
 
-.why-order-heading {
-  background-color: rgb(238, 238, 238);
-  text-align: center;
-}
-
-.why-order-cells {
+.why-order-cell {
   text-align: center;
   background-color: rgb(238, 238, 238);
-}
-
-.about-1 {
-    text-align: center;
-}
-
-.footer-cells {
-  color: white;
-  background-color: rgb(50, 50, 170);
-}
-
-td {
-  border: thin red solid;
-}
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-style: 16px;
 }
 
 .hero {
-    text-align: center;
   color: white;
+  text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
- background-size: cover;
- height: 400px;
+  background-size: cover;
+  height: 300px;
 }
 
-.hero-download {
+/*to use iconic font go to "font awesome"*/
+button {
+  background-color: rgb(0,126,229);
+  /*if you want to change colors just google for "hex colors"*/
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px
+}
+
+.download {
   color: white;
   text-align: center;
   background: url("download-hero.jpg") no-repeat center center;
@@ -88,10 +88,7 @@ body {
   width: 200px;
 }
 
-button {
-  background-color: rgb(0,126,229);
+.footer-cell {
   color: white;
-  height: 40px;
-  width: 200px;
-  border-radius: 5px;
+  background-color: rgb(50, 50, 170);
 }
