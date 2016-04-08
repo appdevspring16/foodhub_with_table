@@ -89,20 +89,30 @@ color: white;
 vertical-align: text-top;
 }
 
-.Navigation{
-  background-color: rgb(246,52,64);
-  color: white;
-}
-
 .navbar-brand{
   background-color: rgb(246,52,64);
   color: white;
   font-size: xx-large;
   font-family: 'Passion One', cursive;
   width: 900px;
+  text-decoration: none;
   }
 
 .download-image-badges{
   width: 200px;
+  margin-bottom: 10px;
+}
+
+.navbar{
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+.h4-footer{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
