@@ -1,0 +1,22 @@
+table {width: 100%;}
+td {border: thin red solid}
+.hero {text-align: center; background: url("main-hero.jpg") no-repeat center center;
+background-size: cover;
+height: 440px; color: white;}
+.How-to-Foodhub-headings {text-align: center;}
+.Why-order-with-foodhub-headings {text-align: center; background-color: whitesmoke}
+.sound-bites-heading {text-align: center; background-color: whitesmoke;}
+.download-hero {text-align: center; background: url(download-hero.jpg) no-repeat center center; background-size: cover; height: 440px; color: white;}
+body {font-family: 'Montserrat', sans-serif;}
+h1 {font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: bold;}
+h2 {font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 400; }
+.how-to-images {width: 200px; border-radius: 50%}
+.how-to-cells {text-align: center;}
+.sound-bite-cells {text-align: center; background-color: whitesmoke;}
+.user-images {width:50px; border-radius: 50%}
+.why-order-cells {text-align: center; background-color: whitesmoke}
+.reasons {width: 200px; border-radius: 50%}
+.Title {font-family: 'Passion One', cursive; font-size: 32px; font-weight: 700;}
+.Heading {background-color: red; color: white;}
+.footer {background-color: blue; color: white;}
+.Download-badges {width: 200px}
