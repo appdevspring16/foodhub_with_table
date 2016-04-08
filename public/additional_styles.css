@@ -72,3 +72,11 @@ height: 400px;}
 width: 200px;
 height: 60px;
 }
+.user-images {
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonials {
+  background-color: rgb(238,238,238);
+  text-align: center;
+}
