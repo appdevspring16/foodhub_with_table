@@ -4,7 +4,7 @@
 }
 
 .navigation{
-  background-color: red;
+  background-color: rgb(246,52,64);
   color: white;
   vertical-align: middle;
 }
@@ -39,6 +39,7 @@ body{
   color: white;
   height: 40px;
   width: 200px;
+  border-radius: 5px;
 }
 
 .heading-row{
