@@ -1,0 +1,7 @@
+.main_table {
+  width : 100%;
+}
+
+td {
+  border: thin red solid;
+}
