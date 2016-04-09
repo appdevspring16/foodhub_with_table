@@ -56,6 +56,8 @@ body {
 
 .how-to-cell {
   text-align: center;
+  height: 340px;
+  vertical-align: top;
 }
 
 .download-hero {
@@ -80,6 +82,9 @@ button {
   vertical-align: top;
 }
 
+.download-text {
+  font-size: 22px;
+}
 
 .store-button {
   width: 200px;
