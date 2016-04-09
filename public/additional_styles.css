@@ -95,3 +95,17 @@ button {
   font-family: "Passion One";
   font-size: xx-large;
 }
+
+/* Footer styles */
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
