@@ -1,0 +1,27 @@
+h1 {
+
+}
+
+table {
+  width: 100%;
+}
+
+td, tr {
+  border: 1px;
+  border-color: red;
+  border-style: solid;
+}
+
+#top-nav {
+  background-color: #F63440;
+  color: #fff;
+  vertical-align: middle;
+}
+
+#footer {
+  background-color: rgb(50, 50, 170);
+}
+
+#footer h2 {
+  color: #fff;
+}
