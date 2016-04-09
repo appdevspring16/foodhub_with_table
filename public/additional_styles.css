@@ -1,0 +1,175 @@
+.main-content {
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+td {
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+a.navbar-link {
+  color: white
+  text-decoration: none;
+}
+
+a.navbar-link:link {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-link:visited {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-link:hover {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-link:active {
+   color: white;
+   text-decoration: none;
+}
+
+
+a.navbar-logo {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+a.navbar-logo:link {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:visited {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:hover {
+   color: white;
+   text-decoration: none;
+}
+a.navbar-logo:active {
+   color: white;
+   text-decoration: none;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-cell {
+  text-align: center;
+  vertical-align: top;
+}
+
+.how-to-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat
+  center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.app-download {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background: url("download-hero.jpg") no-repeat
+  center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.app-download-body-text {
+  font-size: 22px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color:white;
+  height:40px;
+  width: 200px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.sound-bites-heading {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-content {
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-img {
+  width:50px;
+  border-radius: 50%;
+}
+
+.dl-link-img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.why-order-heading {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-content {
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-img {
+  width:200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-foodhub {
+  text-align: center;
+  vertical-align: top;
+}
+
+.foodhub-desc {
+  vertical-align: middle;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(50, 50, 170);
+  vertical-align: top;
+}
+
+.footer-margin {
+  margin-bottom:10px;
+}
