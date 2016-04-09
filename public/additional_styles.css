@@ -7,6 +7,10 @@ td {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.navigation {
+  background-color: red;
+  color: white;
+}
 .hero {
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -31,4 +35,24 @@ button {
 }
 .how-to-cell {
   text-align: center;
+}
+.sound-bites {
+  background-color: lightgrey;
+  text-align: center;
+  image-: center;
+}
+.sound-bite-image {
+  width: 50px;
+  border-radius: 50%;
+}
+.download-apps {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url(download-hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 300px
+}
+.badge {
+  width: 200px;
 }
