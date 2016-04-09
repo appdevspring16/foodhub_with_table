@@ -1,31 +1,33 @@
 table {width: 100%;}
 td {border: thin red solid}
-body {font-family: 'Montserrat', sans-serif;}
-.heading {background-color: rgb(246, 52, 64);; color: white;}
-.header {padding-left: 10px; font-family: 'Passion One', cursive; font-size: 32px; font-weight: 400;}
+body {font-family: 'Montserrat', sans-serif}
+.heading {background-color: rgb(246, 52, 64); color: white}
+.header {padding-left: 10px; font-family: 'Passion One', cursive; font-size: 32px; font-weight: 400}
 .header2 {padding-left: 10px}
 .shopping-bag {padding-left: 10px; font-size: 22px}
 .hero {text-align: center; background: url("main-hero.jpg") no-repeat center center;
-background-size: cover;
-height: 440px; color: white;}
+background-size: cover; height: 440px; color: white}
 .find-food-button {background-color: rgb(0, 126, 229); color: white; height: 42px; width: 200px}
-.How-to-Foodhub-headings {text-align: center; padding-top: 16px}
+.how-to-Foodhub-headings {text-align: center; padding-top: 16px}
 h1 {font-size: 24px; font-weight: bold}
 h2 {font-size: 16px; font-weight: 400}
 h3 {padding-top: 30px;font-size: 16px; font-weight: bold}
 h4 {font-size: 24px; font-weight: 400}
-.sound-bites-heading {padding-top: 16px; text-align: center; background-color: rgb(238, 238, 238)}
-.sound-bite-cells {padding-left: 12px; padding-right: 16px; text-align: center; background-color: rgb(238, 238, 238)}
-.download-hero {text-align: center; background: url(download-hero.jpg) no-repeat center center; background-size: cover; height: 440px; color: white;}
-.Why-order-with-foodhub-headings {padding-top: 16px; text-align: center; background-color: rgb(238, 238, 238);}
+.sound-bites-heading, .sound-bite-cells, .Why-order-with-foodhub-headings, .why-order-cells {background-color: rgb(238, 238, 238)}
+.sound-bites-heading {padding-top: 16px; text-align: center}
+.sound-bite-cells {vertical-align: top; padding-left: 12px; padding-right: 12px; text-align: center}
+.download-hero {text-align: center; background: url(download-hero.jpg) no-repeat center center; background-size: cover; height: 440px; color: white}
+.download-badges {width: 200px}
+.why-order-with-foodhub-headings {padding-top: 16px; text-align: center}
 .how-to-images {width: 200px; border-radius: 50%}
 .how-to-cells {text-align: center;}
 .user-images {width:50px; border-radius: 50%}
-.why-order-cells {text-align: center; background-color: rgb(238, 238, 238);}
+.why-order-cells {text-align: center}
 .reasons {width: 200px; border-radius: 50%}
-.footer {background-color: rgb(50, 50, 170); color: white}
-.Download-badges {width: 200px}
-
-.about-foodhub {text-align: center;}
+.about-foodhub {text-align: center; vertical-align: top; padding-top: 16px}
+p {padding-top: 12px; padding-bottom: 12px}
+.footer {background-color: rgb(50, 50, 170); color: white; vertical-align: top}
+.footer-text {padding-top: 16px; padding-left: 16px; padding-right: 16px}
+h5 {font-size: 16px; font-weight: bold}
 .treats-button {background-color: rgb(0, 126, 229); color: white; height: 42px; width: 200px}
 li {margin-bottom: 10px}
