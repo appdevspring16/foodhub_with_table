@@ -39,7 +39,6 @@ button {
 .sound-bites {
   background-color: lightgrey;
   text-align: center;
-  image-: center;
 }
 .sound-bite-image {
   width: 50px;
@@ -55,4 +54,12 @@ button {
 }
 .badge {
   width: 200px;
+}
+.why-order-image {
+  width: 100px;
+  border-radius: 50%;
+}
+.footer {
+  color: white;
+  background-color: blue;
 }
