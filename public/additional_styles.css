@@ -7,7 +7,8 @@ td {
 }
 
 body {
-    font-family: 'Montserrat',
+    font-family: 'Montserrat';
+    font-size: 16px;
 }
 
 .hero {
@@ -15,14 +16,28 @@ body {
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .navigation {
   color: white;
    text-align: left;
-  background-color: red;
+  background-color: rgb(246, 52, 64);
   height: 30px;
+}
+
+.navigation-foodhub {
+  color: white;
+   text-align: left;
+  background-color: rgb(246, 52, 64);
+  font-family: 'Passion One';
+  font-size: xx-large;
+  height: 30px;
+}
+
+.soundbites {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .heading-row {
@@ -34,8 +49,21 @@ body {
   border-radius: 50%;
 }
 
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
 .how-to-cell {
   text-align: center;
+}
+
+.download-hero {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
 }
 
 button {
@@ -44,4 +72,31 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.sound-bites-content {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  vertical-align: top;
+}
+
+
+.store-button {
+  width: 200px;
+}
+
+.about{
+  text-align: center;
+  vertical-align: top;
+}
+
+.footer {
+  background-color: rgb(50, 50, 170);
+  vertical-align: top;
+  color: white;
+}
+
+.why-order-content {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
 }
