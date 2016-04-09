@@ -82,6 +82,11 @@ button {
   vertical-align: top;
 }
 
+.about-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .download-text {
   font-size: 22px;
 }
@@ -99,6 +104,10 @@ button {
   background-color: rgb(50, 50, 170);
   vertical-align: top;
   color: white;
+}
+
+.line-space {
+  margin-bottom: 5px;
 }
 
 .why-order-content {
