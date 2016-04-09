@@ -1,0 +1,111 @@
+/*h1 {*/
+/*color: red;*/
+/*}*/
+
+.main-content{
+  width:100%;
+}
+
+.nav-row{
+  background-color: red;
+  color: white;
+  height: 40px;
+}
+
+.heading-row{
+  text-align: center;
+
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+.sound-bites-head{
+  text-align: center;
+  height: 40px;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites{
+  text-align: center;
+  height: 100px;
+  background-color: rgb(238, 238, 238);
+}
+
+.happypeeps{
+  width: 50px;
+  border-radius: 50%;
+}
+
+td {
+  border:thin red solid;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px
+}
+
+.downloadapps {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.badge {
+  height: 60px;
+}
+
+.aboutfoodhub {
+  text-align: center;
+}
+
+.footerblue {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+/* Footer styles */
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
