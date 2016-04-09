@@ -2,10 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-
-}
-
 .main-content {
   width: 100%;
 }
@@ -13,22 +9,31 @@ h1 {
 .hero {
   text-align: center;
   background: url("../images/main-hero.jpg") no-repeat center center;
-  height: 300px;
+  height: 400px;
   background-size: cover;
   color: #fff;
+  vertical-align: middle;
 }
 
-.heading-row {
+.download-apps {
   text-align: center;
+  background: url("../images/download-hero.jpg") no-repeat center center;
+  height: 400px;
+  background-size: cover;
+  color: #fff;
+  vertical-align: middle;
 }
 
 .how-to-image {
   width: 200px;
-  border-radius: 50%;
 }
 
 .how-to-cell {
   text-align: center;
+}
+
+.how-to-cell img {
+  margin-bottom: 20px;
 }
 
 td, tr {
@@ -37,18 +42,37 @@ td, tr {
   border-style: solid;
 }
 
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
 #top-nav {
   background-color: #F63440;
   color: #fff;
   vertical-align: middle;
 }
 
-#footer {
-  background-color: rgb(50, 50, 170);
+#top-nav td {
+  vertical-align: middle;
 }
 
-#footer h2 {
+#footer {
+  background-color: rgb(50, 50, 170);
   color: #fff;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#footer li {
+  margin-bottom: 10px;
 }
 
 button {
@@ -57,4 +81,38 @@ button {
   width: 200px;
   color: #fff;
   border-radius: 5px;
+}
+
+#logo {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+.centered {
+  text-align: center;
+}
+
+.grey {
+  background-color: rgb(238, 238, 238);
+}
+
+.user-image {
+  width: 50px;
+}
+
+.round {
+  border-radius: 50%;
+}
+.tag-line {
+  font-size: 22px;
+}
+
+.store-badge {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.why-order {
+  width: 200px;
+  margin-bottom: 20px;
 }
