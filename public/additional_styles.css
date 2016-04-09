@@ -11,8 +11,13 @@
   font-size: 22px;
 }
 .brand {
-  font-family: 'Passion One', cursive;
+  font-family: 'Passion One';
+  vertical-align: middle;
+  color: white;
   font-size: xx-large;
+}
+.HDR {
+  vertical-align: middle;
 }
 .how-to-images {
   width: 200px;
@@ -39,9 +44,9 @@ text-align: center;
 }
 td {
   border: thin red solid;
-  vertical-align: top;
   padding-left: 10px;
   padding-right: 10px;
+  vertical-align: top;
 }
 
 body {
@@ -52,19 +57,28 @@ body {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  vertical-align: middle;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 400px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .Down-images {
 width: 200px;
 border-radius: 1%;
 }
+
 .app-store {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   text-align: center;
   background: url("download-hero.jpg") no-repeat center center;
+  vertical-align: middle;
   background-size: cover;
   height: 400px;
 }
@@ -88,6 +102,14 @@ button {
   border-radius: 5px;
   height: 40px;
   width: 200px;
+}
+
+button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.contact2 {
+  margin-bottom: 10px;
 }
 
 .padding-inside-top-xs {
