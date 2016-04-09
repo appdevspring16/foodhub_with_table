@@ -1,0 +1,237 @@
+table {
+  width: 100%;
+}
+
+td {
+  border: thin red solid;
+}
+
+.navbar {
+  color: white;
+  background-color: red;
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart {
+  color: white;
+  background-color: red;
+  font-size: 21px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.sign-in {
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  }
+
+h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.how-to-header {
+  text-align: center;
+}
+
+.how-to-images {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cells {
+  text-align: center;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  width: 200;
+  height: 40;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.sound-bite {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bite-cells {
+text-align: center;
+vertical-align: top;
+background-color: rgb(238, 238, 238);
+font-size: 16px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.user-images {
+  border-radius: 50%;
+  width: 50px;
+  text-align: top center;
+}
+
+.download {
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.badge {
+  width: 200px;
+}
+
+
+.why-order {
+  text-align: center;
+  vertical-align: top;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(238, 238, 238);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 70px;
+
+}
+
+.why-images {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-cells {
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.about-cell-1 {
+  vertical-align: top;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.about-cell-2 {
+  vertical-align: top;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+ .footer-cell-1 {
+   color: white;
+   background-color: rgb(50, 50, 170);
+   vertical-align: top;
+   text-align: left;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 300px;
+   width: 200px;
+
+ }
+
+ .footer-cell-2 {
+   color: white;
+   background-color: rgb(50, 50, 170);
+   vertical-align: top;
+   text-align: left;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 300px;
+   width: 190px;
+ }
+
+ .footer-cell-3 {
+   color: white;
+   background-color: rgb(50, 50, 170);
+   vertical-align: top;
+   text-align: left;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 300px;
+   width: 90px;
+ }
+
+ .footer-cell-4 {
+   color: white;
+   background-color: rgb(50, 50, 170);
+   vertical-align: top;
+   text-align: left;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 300px;
+   width: 270px;
+ }
+ .li-footer {
+   color: white;
+   margin-bottom: 10px;
+ }
