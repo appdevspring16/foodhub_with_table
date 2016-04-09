@@ -43,6 +43,9 @@ table {
   text-align: center;
 }
 
+.how-to-spacing {
+  padding-top: 25px;
+}
 td {
   vertical-align: top;
   padding-left: 10px;
@@ -112,7 +115,7 @@ text-decoration:none;
   background-size: cover;
   height: 400px;
   vertical-align: middle;
-  
+
 }
 
 button{
