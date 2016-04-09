@@ -95,3 +95,15 @@ button {
   font-family: "Passion One";
   font-size: xx-large;
 }
+.invisible {
+  color: rgb(238, 238, 238);
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.invisblue {
+  color: rgb(50, 50, 170);
+}
