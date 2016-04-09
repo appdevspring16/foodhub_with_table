@@ -5,6 +5,11 @@
 td {border: thin red solid;
 }
 
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .hero {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -14,14 +19,22 @@ td {border: thin red solid;
 	height: 300px;
 }
 
-body {
-	font-family: 'Montserrat', sans-serif;
+.heading-row {
+	text-align: center;
 }
 
+.how-to-image {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.how-to-cell {
+	text-align: center;
+}
 button {
 	background-color: rgb(0, 126, 229);
 	color: white;
 	height: 40px;
 	width: 200px;
-
+	border-radius: 5px;
 }
