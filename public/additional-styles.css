@@ -1,0 +1,110 @@
+
+.main-content{
+  width: 100%;
+}
+
+.navigation{
+  background-color: rgb(246,52,64);
+  color: white;
+  vertical-align: middle;
+}
+
+.nav-title{
+  font-family: "Passion One";
+  font-size: 32px;
+}
+
+
+td{
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.hero{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.button{
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.heading-row{
+  text-align: center;
+}
+
+.round-image{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.sound-bite-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.centered{
+  text-align: center;
+}
+
+.download{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.store-badge {
+  width: 200px;
+}
+
+.margin-below-bottom-xs{
+  margin-bottom: 10px;
+}
+
+.footer{
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+}
+
+.tagline{
+  font-size: 22px;
+}
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
