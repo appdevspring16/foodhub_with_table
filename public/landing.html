@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>FoodHub Local</title>
-  <!-- Local stylesheet -->
+  <!-- SG: Local stylesheet -->
   <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
-  <!-- Google webfonts -->
+  <!-- SG: Google webfonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!-- Font awesome -->
-  <!-- Taken from bootstrap cdn -->
-<link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- <i class="fa fa-map-marker"></i> -->
+  <!-- SG:Font awesome -->
+  <!-- SG:Taken from bootstrap cdn -->
+  <link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- SG:Below line for map marker got from font awesome website. search for the icon you are looking and cut n paste -->
 
 </head>
 <body>
@@ -43,7 +43,9 @@
             <label>Enter your address below.</label>
           </div>
           <div class="">
-            <input type="text">
+            <!-- SG: Placeholder shows expected input inside the box -->
+            <i class="fa fa-map-marker"></i>
+            <input type="text" placeholder="Street address, city, state">
           </div>
           <div class="">
             <button>Find Food</button>
@@ -54,65 +56,118 @@
     </tr>
     <tr>
       <!-- How to Title-->
-      <td colspan="12">
-        5
+      <td colspan="12" class="center_align">
+        <h2>How to Foodhub</h2>
+        <p>
+          Ordering from your favorite restaurant is even easier than eating.
+        </p>
       </td>
     </tr>
     <tr>
       <!-- How to Content-->
-      <td colspan="4">
-        6
+      <td colspan="4" class="center_align">
+        <img src="map.jpg" class="howtoimage"/>
+        <h3>The where</h3>
+        <p>
+          Browse menus from your favorite local restaurants.
+        </p>
+
       </td>
-      <td colspan="4">
-        7
+      <td colspan="4" class="center_align">
+        <img src="menu.jpg" class="howtoimage"/>
+        <h3>The what</h3>
+        <p>
+          Select what you want to eat. Submit your order.
+        </p>
       </td>
-      <td colspan="4">
-        8
+      <td colspan="4" class="center_align">
+        <img src="delivery.jpg" class="howtoimage"/>
+        <h3>The delivery</h3>
+        <p>
+          Get the door and enjoy your food!
+        </p>
       </td>
     </tr>
     <tr>
       <!-- Sound bites heading-->
-      <td colspan="12">
-        9
+      <td colspan="12" class="center_align">
+        <h2>Sound bites</h2>
       </td>
     </tr>
     <tr>
       <!-- Sound bites Content -->
-      <td colspan="3">
-        10
+      <td colspan="3" class="center_align">
+        <img src="user-1.jpg" class="testimage"/>
+        <p>@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!</p>
+
+        <h3>@xtinacousins</h3>
+
       </td>
-      <td colspan="3">
-        11
+      <td colspan="3"  class="center_align">
+        <img src="user-2.jpg" class="testimage"/>
+        <p>
+          Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
+        </p>
+        <h3>@udezekene</h3>
+
       </td>
-      <td colspan="3">
-        12
+      <td colspan="3"  class="center_align">
+        <img src="user-3.jpg" class="testimage"/>
+
+        <p>
+          Shout out to Foodhub for making my life so so easy.
+        </p>
+        <h3>@adellecharles</h3>
       </td>
-      <td colspan="3">
-        13
+      <td colspan="3"  class="center_align">
+        <img src="user-4.jpg" class="testimage"/>
+        <p>
+          Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
+        </p>
+        <h3>@vista</h3>
       </td>
     </tr>
     <tr>
       <!-- Downlaod apps -->
-      <td colspan="12">
-        14
+      <!-- SG: We have have multiple class to combine styles. See below has center_align and download -->
+      <td colspan="12" class="center_align download">
+        <h2>Download apps</h2>
+        <p class="bold_para">
+          Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
+        </p>
+        <img src="app-store-badge.png" class="appstore_image"/>
+        <img src="google-play-badge.png" class="appstore_image"/>
       </td>
     </tr>
     <tr>
       <!-- Why order -->
-      <td colspan="12">
-        14
+      <td colspan="12" class="center_align">
+        <h2>Why order with Foodhub?</h2>
       </td>
     </tr>
     <tr>
       <!-- Why order Content -->
-      <td colspan="3">
-        15
+      <td colspan="3" class="center_align">
+        <img src="gem.jpg" class="whyorderimage"/>
+        <h3>Discover</h3>
+        <p>
+          We'll help you find hidden gems in your neighborhood.
+        </p>
       </td>
-      <td colspan="3">
-        16
+      <td colspan="3" class="center_align">
+        <img src="like.jpg" class="whyorderimage"/>
+        <h3>Better</h3>
+        <p>
+          The more you use Foodhub, the better we are at making recommendations just for you.
+        </p>
+
       </td>
-      <td colspan="6">
-        17
+      <td colspan="6" class="center_align">
+        <img src="bite.jpg" class="whyorderimage"/>
+        <h3>Food</h3>
+        <p>
+          Enjoy each bite all the more knowing your order supports local businesses.
+        </p>
       </td>
     </tr>
     <tr>

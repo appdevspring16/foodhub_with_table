@@ -23,10 +23,45 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.center_align {
+  text-align: center;
+}
+
+.howtoimage {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.testimage {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.whyorderimage {
+  border-radius: 50%;
+  width: 200px;
+}
+
+
 .hero {
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
   height: 300px;
+}
+
+.download {
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 400px;
+}
+
+.bold_para{
+  font-size: 20px;
+}
+
+.appstore_image{
+  width: 200px;
 }
