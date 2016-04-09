@@ -29,13 +29,13 @@
 .sound-bites-head{
   text-align: center;
   height: 40px;
-  background-color: lightgrey;
+  background-color: rgb(238, 238, 238);
 }
 
 .sound-bites{
   text-align: center;
   height: 100px;
-  background-color: lightgrey;
+  background-color: rgb(238, 238, 238);
 }
 
 .happypeeps{
@@ -90,4 +90,8 @@ button {
 .footerblue {
   color: white;
   background-color: rgb(50, 50, 170);
+}
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
 }
