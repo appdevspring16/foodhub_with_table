@@ -83,8 +83,12 @@ button {
 }
 
 .about-content {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.order-content-space {
+  margin-top: 20px;
 }
 
 .download-text {
