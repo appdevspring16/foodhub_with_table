@@ -1,0 +1,127 @@
+
+.main-content {
+  width: 100%;
+  }
+
+table {
+  display:table;
+  border-collapse:separate;
+  border-color: grey;
+
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-images {
+  width: 200px;
+  border-radius: 50%;
+}
+.how-to-images2 {
+  width: 200px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.sound-bites-heading {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-images {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.dl-apps-images {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.how-to-cells {
+  text-align: center;
+}
+
+.how-to-spacing {
+  padding-top: 25px;
+}
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.sound-bites-cells {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  border: thin red solid;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+
+}
+.navbar-brand {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+}
+
+a:-webkit-any-link {
+color: white;
+text-decoration:none;
+        cursor: auto;
+}
+
+.footer {
+  background-color: rgb(50, 50, 170);
+}
+
+.h4-footer {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.list {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hero {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.dl-apps {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+
+}
+
+button{
+  background-color: rgb(0, 126, 229);
+  width: 200px;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+}
