@@ -1,0 +1,164 @@
+.main-content {
+	width: 100%;
+}
+td {
+	border: thin red solid;
+}
+
+.topbanner{
+	color: white;
+	background-color: rgb(246,52,64);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.foodhub{
+	color: white;
+	background-color: rgb(246,52,64);
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	font-size: xx-large;
+	padding-left: 10px;
+	font-family: 'Passion One';
+}
+
+
+.hero {
+	color: white;
+	text-align: center;
+	background: url("main-hero.jpg") no-repeat center center;
+	background-size: cover;
+	height: 300px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+button {
+	background-color: rgb(0,126,229);
+	color: white;
+	height: 40px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.heading-row{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.how-to-image {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.how-to-cell {
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+
+.sound-bites{
+	text-align: center;
+	background-color: rgb(238, 238, 238);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.sound-bites-images {
+	width: 40px;
+	border-radius: 50%;
+}
+
+.sound-bites-cells {
+	text-align: center;
+	background-color: rgb(238, 238, 238);
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+
+.download {
+	color: white;
+	text-align: center;
+	background: url("download-hero.jpg") no-repeat center center;
+	background-size: cover;
+	height: 300px;
+}
+
+.app-store-badge{
+	width: 200px;
+}
+
+.google-play-badge{
+	width: 200px;
+}
+
+.whyorder{
+	text-align: center;
+	background-color: rgb(238, 238, 238);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.round-image{
+	border-radius: 50%;
+}
+
+.spotlight-image {
+	width: 200px;
+
+}
+
+.margin-below-bottom-sm {
+	margin-bottom: 20px;
+}
+
+.whyordercells{
+	background-color: rgb(238, 238, 238);
+	padding-bottom: 20px;
+}
+
+.order-cell {
+	text-align: center;
+	vertical-align: text-top;
+}
+
+.aboutfoodhub{
+	text-align: center;
+}
+
+.about{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.footer{
+	background-color: rgb(50, 50, 170)
+}
+
+.footercell{
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+.h4footer{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.li-footer{
+	color: white;
+	margin-bottom: 10px;
+}
