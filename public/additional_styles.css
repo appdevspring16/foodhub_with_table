@@ -1,0 +1,118 @@
+.main-content {
+  width: 100%;
+}
+
+.heading-row{
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+td{
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button{
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-heading{
+  text-align: center;
+  background-color: rgb(238,238,238)
+}
+
+.sound-bites-cell{
+  text-align: center;
+  background-color: rgb(238,238,238);
+  vertical-align: top;
+}
+
+.download-hero{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.download-image{
+  width: 200px;
+  border-radius: 50%
+}
+
+.why-order-heading{
+  text-align: center;
+  background-color: rgb(238,238,238)
+}
+
+.why-order-content{
+  text-align: center;
+  background-color: rgb(238,238,238)
+}
+
+.about-heading-row{
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.footer{
+background-color: rgb(50, 0, 190);
+color: white;
+vertical-align: text-top;
+}
+
+.navbar-brand{
+  background-color: rgb(246,52,64);
+  color: white;
+  font-size: xx-large;
+  font-family: 'Passion One', cursive;
+  width: 900px;
+  text-decoration: none;
+  }
+
+.download-image-badges{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.navbar{
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+.h4-footer{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
