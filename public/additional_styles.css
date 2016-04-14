@@ -1,0 +1,136 @@
+.main-content {
+  width: 100%;
+}
+
+td {
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.foodhub {
+  background-color: rgb(246,52,64);
+  color: white;
+  font-family: "passion one";
+  font-size: xx-large;
+}
+.navigation {
+  color: white;
+  background-color: rgb(246,52,64);
+}
+
+
+
+h3 {
+  font-size: 22px
+}
+.hero {
+color: white;
+font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.apps {
+  color:white;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  vertical-align:middle;
+}
+.appsword {
+  font-size: 22px
+}
+
+.apps-image{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.how-to-cell {
+  text-align: center;
+    vertical-align: top;
+
+}
+
+.soundbites-heading {
+  text-align: center;
+  background-color: rgb(238,238,238);
+}
+.soundbites-cell {
+  text-align: center;
+  background-color: rgb(238,238,238);
+  vertical-align: top;
+}
+
+.soundbites-image {
+border-radius: 50%;
+width: 50px;
+
+}
+
+.why-order-heading{
+  text-align: center;
+  background-color: rgb(238,238,238);
+}
+
+.why-order-content{
+text-align: center;
+background-color: rgb(238,238,238);
+  vertical-align: top;
+}
+
+.why-order-image {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.aboutfoodhub {
+text-align:center;
+vertical-align:top;
+
+}
+
+.aboutcontent {
+
+}
+.footer {
+  color: white;
+  background-color: rgb(50,50,170);
+  vertical-align:top;
+  margin-bottom:10px;
+}
+
+.bigfooter {
+  color: white;
+  background-color: rgb(50,50,170);
+  vertical-align:top;
+}
