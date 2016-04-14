@@ -1,0 +1,82 @@
+.main-content {
+width: 100%;}
+td {border: thin red solid;}
+.top-row {
+font-size: 16px;
+height: 40px;
+background-color: red;
+color: white;
+}
+.who-delivers {
+color: white;
+text-align: center;
+background: url("main-hero.jpg")
+no-repeat center center;
+background-size: cover;
+height: 400px;}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+.how-to {
+  text-align: center;
+}
+.rounded-images {
+  width: 200px;
+  border-radius: 50%;
+}
+.sound-bites {
+text-align: center;
+background-color: rgb(238,238,238);
+height: 70px;
+font-size: 16px;
+}
+.why-order {
+text-align: center;
+background-color: rgb(238,238,238);
+height: 70px;
+font-size: 16px;
+}
+.about-foodhub {
+text-align: center;
+vertical-align: top;
+height: 70px;
+font-size: 16px;
+}
+.about-foodhub-paragraph{
+
+}
+.discover-better-food{
+background-color: rgb(238,238,238);
+text-align: center;
+}
+.last-row {
+  background-color: rgb(50,50,170);
+  color: white;
+  vertical-align: top;
+}
+.app-store {
+color: white;
+text-align: center;
+background: url("download-hero.jpg")
+no-repeat center center;
+background-size: cover;
+height: 400px;}
+.store-badge {
+width: 200px;
+height: 60px;
+}
+.user-images {
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonials {
+  background-color: rgb(238,238,238);
+  text-align: center;
+}
