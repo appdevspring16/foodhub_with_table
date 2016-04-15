@@ -1,0 +1,99 @@
+.main-content {
+  width: 100%;
+}
+
+.navigation {
+  color: white;
+  background-color: rgb(246, 52, 64);
+  font-size: 16px;
+  height: 33.576px;
+
+}
+.heading-row {
+text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+td {
+  border: thin red solid;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+
+}
+
+.download-hero {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.download-image {
+  width: 200px;
+  border-radius
+  border-radius: 5px;
+}
+.sound-bites {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cell{
+    text-align: center;
+    valign: top;
+    background-color: rgb(238, 238, 238);
+}
+
+.why-order {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.about-cell {
+    vertical-align: top;
+    text-align: left;
+    color: white;
+    background-color:rgb(50, 50, 170);
+    li span { margin-left: +50px; }
+  }
+}
