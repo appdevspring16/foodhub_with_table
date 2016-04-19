@@ -1,0 +1,110 @@
+.main-content {
+  width:100%;
+}
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center bottom;
+  background-size: cover;
+  height: 400px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.heading-row{
+  text-align: center;
+}
+
+.heading-row-soundbar{
+  text-align: center;
+  background-color: rgb(238, 238, 238)
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.soundbite-cell{
+  text-align: center;
+  background-color: rgb(238, 238, 238)
+}
+
+.soundbite-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  color: white;
+  vertical-align: middle;
+}
+
+.navbar a{
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand{
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+.downloadapps{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center bottom;
+  background-size: cover;
+  height: 300px;
+}
+
+.storebadge{
+  width:200px;
+}
+
+.whyorder-cell{
+  text-align: center;
+}
+
+.whyorder-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: rgb(50,50,170);
+  vertical-align: top;
+}
+
+.footerText{
+  color:white;
+  font-size: 16px;
+  font-weight:700;
+  margin-bottom: 10px;
+}
+
+.footerText2{
+  color: white;
+  margin-bottom: 10px;
+}
