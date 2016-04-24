@@ -1,0 +1,94 @@
+.main-content {
+  width: 100%
+}
+
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  color: white;
+  background-color: rgb(246,52,64);
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.sound-row {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%
+}
+
+.sound-bites-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-row {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%
+}
+
+.why-order-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+/*to use iconic font go to "font awesome"*/
+button {
+  background-color: rgb(0,126,229);
+  /*if you want to change colors just google for "hex colors"*/
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px
+}
+
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.app-stores {
+  width: 200px;
+}
+
+.footer-cell {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
