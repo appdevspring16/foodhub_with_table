@@ -1,0 +1,109 @@
+.main-content{
+  width:100%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+td{
+  border: thin red solid;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+li{
+  text-indent:1em;
+  padding-bottom: 10px;
+}
+
+.heading-row{
+  text-align: center;
+}
+
+.navigation-row{
+  background-color: rgb(246,52,64);
+  color: white;
+  vertical-align: middle;
+}
+
+.navigation-name{
+  font-family: 'Passion One';
+  font-size: xx-large;
+}
+
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+.sound-bites-main{
+  text-align: center;
+  background: rgb(238,238,238)
+}
+
+.sound-bites-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.download-main{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.download-image{
+  width:200px;
+  margin-bottom: 10px;
+}
+
+.why-order-main{
+  text-align: center;
+  background: rgb(238,238,238);
+}
+
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-main{
+  text-align: center;
+}
+
+.footer-main{
+  vertical-align: top;
+  color: white;
+  background: rgb(50, 50, 170);
+}
+
+button{
+  background-color: rgb(0, 126, 229);
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+}
