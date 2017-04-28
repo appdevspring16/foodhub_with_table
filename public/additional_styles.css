@@ -1,0 +1,193 @@
+.main-content {
+  width: 100%;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+td {
+  border: thin red solid
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out:
+}
+/*<!-- rgba a=transparency between 0-1, google hex color tool -->*/
+
+.navbar {
+  background-color: rgb(246, 52, 64);
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+}
+
+.primary-button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+}
+
+.user-images {
+  width: 75px;
+  border-radius: 50%;
+  align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.background-app {
+  color: white;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sub-header {
+  font-size: 22px;
+}
+
+.app-badge {
+  width: 200px;
+}
+
+.footer {
+background-color: rgb(50, 50, 170);
+}
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+
+.margin-below-bottom-xs {
+  margin-bottom: 10px;
+}
+
+.padding-inside-top-xs {
+  padding-top: 10px;
+}
+
+.padding-inside-top-sm {
+  padding-top: 20px;
+}
+
+.padding-inside-top-md {
+  padding-top: 50px;
+}
+
+.padding-inside-top-lg {
+  padding-top: 150px;
+}
+
+.padding-inside-top-xl {
+  padding-top: 200px;
+}
+
+.padding-inside-bottom-xs {
+  padding-bottom: 10px;
+}
+
+.padding-inside-bottom-sm {
+  padding-bottom: 20px;
+}
+
+.padding-inside-bottom-md {
+  padding-bottom: 50px;
+}
+
+.padding-inside-bottom-lg {
+  padding-bottom: 150px;
+}
+
+.padding-inside-bottom-xl {
+  padding-bottom: 200px;
+}
+
+.margin-above-top-xs {
+  margin-top: 10px;
+}
+
+.margin-above-top-sm {
+  margin-top: 20px;
+}
+
+.margin-above-top-md {
+  margin-top: 50px;
+}
+
+.margin-above-top-lg {
+  margin-top: 150px;
+}
+
+.margin-below-bottom-sm {
+  margin-bottom: 20px;
+}
+
+.margin-below-bottom-md {
+  margin-bottom: 50px;
+}
+
+.margin-below-bottom-lg {
+  margin-bottom: 150px;
+}
+
+.margin-below-bottom-xl {
+  margin-bottom: 200px;
+}
