@@ -1,0 +1,133 @@
+.main-content {
+    width: 100%
+}
+
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+  background-color: rgb(246, 52, 64);
+  color: white;
+  font-size: 16px;
+  height: 36px;
+}
+
+.navigation-foodhub {
+  background-color: rgb(246, 52, 64);
+  color: white;
+  font-size: 32px;
+  height: 36px;
+  font-family: 'Passion One', cursive;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+background-size: cover;
+height: 400px;
+}
+
+button {
+background-color: rgb(0, 126, 229);
+color: white;
+height: 40px;
+width: 200px;
+border-radius:5px;
+}
+
+.heading-row {
+text-align: center;
+}
+
+.how-to-image {
+width: 200px;
+border-radius: 50%;
+}
+
+.how-to-cell {
+text-align: center;
+  vertical-align: top;
+}
+
+.sound-bites {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+  }
+
+.sound-bites-cell {
+text-align: center;
+background-color: rgb(238, 238, 238);
+height: 264px;
+  vertical-align: top;
+}
+
+.download-app-badge {
+  width: 200px;
+}
+
+.download-app-cell {
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+background-size: cover;
+height: 400px;
+color: white;
+}
+
+.why-order-heading-cell {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order-cell {
+text-align: center;
+background-color: rgb(238, 238, 238);
+height: 397px;
+  vertical-align: top;
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer-cell {
+  background-color: rgb(50, 50, 170);
+  color: white;
+  height: 302px;
+  vertical-align: top;
+}
+
+.about-cell {
+    vertical-align: top;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bullet {
+  text-align: left;
+    margin-bottom: 10px;
+}
